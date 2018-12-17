@@ -19,12 +19,24 @@ footer{
 #liste_produit{
 	display : flex;
 	flex-flow :row wrap; 
+	justify-content: space-between;
+	align-content: flex-start;
 	
 }
 article{
-	padding : 0 20px;
-	width: 30%;
-	border: 1px solid grey;
+	padding : 10px, 20px;
+	max-width: 300px; 
+	border: 1px solid rgb(179, 31, 31);
+	display : flex;
+	flex-flow :column;
+	min-width: 120px;
+}
+article button{
+	width: 100%;
+}
+.cactus{
+	/* min-width: 100px; */
+	width: 100%;
 }
 .promo{
 	font: italic;
