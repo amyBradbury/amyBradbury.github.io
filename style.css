@@ -23,16 +23,18 @@ footer{
 }
 article{
 	padding : 0 20px;
+	width: 30%;
+	border: 1px solid grey;
 }
-#promo{
+.promo{
 	font: italic;
 	/* border: 2px solid red; */
 }
-#promo,em{
+.promo em{
 	color: #e61515;
 	font: bold, italic;
 }
-#promo, img{
+.promo img{
 	width: 200px;
 }
 
