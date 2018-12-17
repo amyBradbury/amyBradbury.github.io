@@ -25,8 +25,15 @@ article{
 	padding : 0 20px;
 }
 #promo{
-	color: red;
+	font: italic;
+	/* border: 2px solid red; */
+}
+#promo,em{
+	color: #e61515;
 	font: bold, italic;
+}
+#promo, img{
+	width: 200px;
 }
 
 #panier{
