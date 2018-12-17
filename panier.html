@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
 <head>
-	<title></title>
+	<title>Mon panier</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
@@ -25,9 +25,9 @@
 			<th>prix</th>
 		</tr>
 		<tr>
-			<td>Cactus cierge</td>
+			<td>Palmier nain 'Silvertrii'</td>
 			<td>1</td>
-			<td>2,00€</td>
+			<td>1,50€</td>
 		</tr>
 		<tr>
 			<td colspan = 2>Frais de port</td>
@@ -35,24 +35,23 @@
 		</tr>
 		<tr>
 			<td colspan = 2>Total</td>
-			<td>7,00€</td>
+			<td>6,50€</td>
 		</tr>
 	</table>
 	<!-- formulaire coordonnées -->
-	<form action ='/service' method='POST'>
-		<fieldset>
-			<legend></legend>
-	
+	<form id='coord' action ='/service' method='POST'>
+		<fieldset >
+			<legend>Vos informations de commande</legend>
 			<input name='prenom' placeholder='Prénom' type ='text' /><br/>
 			<input name='nom' placeholder='Nom' type ='text'/><br/>
 			<input name='email' placeholder='Email' type ='email'/><br/>
 			<input name='adresse' placeholder='Adresse' type ='text'/><br/>
-			<input name='code_postal' placeholder='Code Postal' type ='number'/>
+			<input name='code_postal' placeholder='Code Postal' type ='number'/><br/>
 			<input name='ville' placeholder='Ville' type ='text'/><br/>
-			<!-- liste déroulante ? -->
-			<input name='pays' placeholder='Pays' type ='text'/><br/>
+			<input name='pays' placeholder='Pays' type ='text'/><br/><!-- liste déroulante ? -->
 			<input name='teléphone' placeholder='Téléphone' type ='tel'/><br/>
 			<input name='envoyer' type ='submit' value='Valider la commande'/>
+			<!-- Commande validée -->
 		</fieldset>
 
 		

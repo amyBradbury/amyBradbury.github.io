@@ -24,16 +24,34 @@ footer{
 article{
 	padding : 0 20px;
 }
-table{
-	border-collapse: collapse;
+#promo{
+	font: italic;
+	/* border: 2px solid red; */
 }
-
-td,th{
-	border: 1px solid black;
+#promo,em{
+	color: #e61515;
+	font: bold, italic;
+}
+#promo, img{
+	width: 200px;
 }
 
 #panier{
 	display: flex;
 	justify-content : space-around;
 }
+#coord{
+	width: 40%;
+}
+table{
+	border-collapse: collapse;
+	padding: 10 px;
+	width: 40%;
+}
+td,th{
+	border: 1px solid black;
+	padding: 10 px;
+}
+
+
 
