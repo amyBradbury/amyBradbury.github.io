@@ -1,9 +1,20 @@
-table{
-	border-collapse: collapse;
+nav{
+	display: flex;
+	justify-content : space-between;
+	padding: 10px ;
+	margin: 10px;
+	border: 1px solid red;
 }
-
-td,th{
-	border: 1px solid black;
+main{
+	padding: 10px ;
+	margin: 10px;
+	border: 1px solid blue;
+}
+footer{
+	padding: 10px ;
+	margin: 10px,0px;
+	border: solid black;
+	border-width: 1px 0px;
 }
 #liste_produit{
 	display : flex;
@@ -13,3 +24,16 @@ td,th{
 article{
 	padding : 0 20px;
 }
+table{
+	border-collapse: collapse;
+}
+
+td,th{
+	border: 1px solid black;
+}
+
+#panier{
+	display: flex;
+	justify-content : space-around;
+}
+
