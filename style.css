@@ -1,21 +1,40 @@
-nav{
-	display: flex;
-	justify-content : space-between;
-	padding: 10px ;
-	margin: 10px;
-	border: 1px solid red;
+header {
+    text-align: center;
 }
-main{
-	padding: 10px ;
-	margin: 10px;
-	border: 1px solid blue;
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid green;
+    background-color: #124c0a;
+ }
+ .menuItem a{
+    color: white;
 }
-footer{
-	padding: 10px ;
-	margin: 10px,0px;
-	border: solid black;
-	border-width: 1px 0px;
+main {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid blue;
+    background-color: #edf2e6;
 }
+footer {
+    padding: 10px;
+    margin: 10px,0px;
+    border: solid black;
+    border-width: 1px 0px;
+    background-color: #124c0a;
+    color: white;
+    text-align: center;
+    
+}
+
+    footer a {
+        color: white;
+       
+    }
+
 #liste_produit{
 	display : flex;
 	flex-flow :row wrap; 
@@ -108,4 +127,9 @@ a{
 audio{
 	visibility: hidden;
 }
-
+#msg {
+    text-align: center;
+}
+#desc {
+    
+}
