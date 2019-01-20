@@ -8,7 +8,7 @@ nav {
     padding: 10px;
     margin: 10px;
     border: 1px solid green;
-    background-color: #124c0a;
+    background-color: #72b369;
  }
  .menuItem a{
     color: white;
@@ -16,7 +16,7 @@ nav {
 main {
     padding: 10px;
     margin: 10px;
-    border: 1px solid blue;
+    border: 1px solid #72b369;
     background-color: #edf2e6;
 }
 footer {
