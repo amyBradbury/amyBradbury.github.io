@@ -1,50 +1,59 @@
 header {
 	text-align: center;
-	background-color: white;
-	font-family: 'Kalam', cursive;
-	font-size: 2em;
-	color: #72b369
-}
-.logo{
-	float : left;
-	width: 200px;
-	height:200px;
-}
-body{
-		background-color: white;
-		background-image: url('..\img\header.png');
+	background-image: url('header.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 500px;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 30px;
+	font-weight: lighter;
+	color: rgb(106, 110, 106);
 }
 
+
+body{
+		background-color: white;
+		}
+
 nav {
-	    display: flex;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	display: flex;
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
-    border: 1px solid green;
-    background-color: #72b369;
- }
+	border: 1px solid #edf2e6;
+	font-weight: bolder;
+	font-size: 20px;
+	 }
+	 
  .menuItem a{
-    color: white;
+    color: rgb(106, 110, 106);
 }
 main {
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 20px;
     padding: 10px;
     margin: 10px;
-    border: 1px solid #72b369;
-    background-color: #edf2e6;;
-}
+	border: 1px solid #edf2e6;
+	color: rgb(106, 110, 106);
+	font-weight: bolder;
+	}
+	
 footer {
     padding: 10px;
     margin: 10px,0px;
     border: solid black;
     border-width: 1px 0px;
-    background-color: #72b369;
-    color: white;
+	background-image: url('footer.png');
+	background-size: 100%;
+	height: 500px;
+    color: gray;
     text-align: center;
     
 }
 
     footer a {
-       color: white;
+       color: gray;
        text-align: center;
     }
 
