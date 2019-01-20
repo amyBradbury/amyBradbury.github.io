@@ -1,9 +1,22 @@
 header {
-    text-align: center;
+	text-align: center;
+	background-color: white;
+	font-family: 'Kalam', cursive;
+	font-size: 2em;
+	color: #72b369
+}
+.logo{
+	float : left;
+	width: 200px;
+	height:200px;
+}
+body{
+		background-color: white;
+		background-image: url('..\img\header.png');
 }
 
 nav {
-    display: flex;
+	    display: flex;
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
@@ -17,22 +30,22 @@ main {
     padding: 10px;
     margin: 10px;
     border: 1px solid #72b369;
-    background-color: #edf2e6;
+    background-color: #edf2e6;;
 }
 footer {
     padding: 10px;
     margin: 10px,0px;
     border: solid black;
     border-width: 1px 0px;
-    background-color: #124c0a;
+    background-color: #72b369;
     color: white;
     text-align: center;
     
 }
 
     footer a {
-        color: white;
-       
+       color: white;
+       text-align: center;
     }
 
 #liste_produit{
@@ -46,7 +59,7 @@ article{
 	padding : 10px 20px;
 	margin: 0 0 10px 0 ;
 	max-width: 300px; 
-	border: 1px solid rgb(179, 31, 31);
+	border: 1px solid #72b369;
 	/* display : flex;
 	flex-flow :column; */
 	min-width: 120px;
@@ -80,6 +93,7 @@ article button{
 	width: 200px;
 }
 #panier{
+	width : 100%;
 	display: flex;
 	justify-content : space-around;
 }	
