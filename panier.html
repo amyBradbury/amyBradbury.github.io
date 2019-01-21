@@ -15,11 +15,11 @@
  </header>
 <nav>
     <section class="menuItem"><a href='index.html'>Adopte un cactus</a></section>
-	<section class="menuItem"><a href='produit.html'>Nos Produits</a></section>
+	<section class="menuItem"><a href='produits.html'>Nos Produits</a></section>
 	<section class="menuItem"><a href='panier.html'>Mon panier (1)</a></section>
 	<section class="menuItem"><a href='equipe.html'>L'équipe</a></section>
 	<!-- <a href='resultats.html'>resultats</a> -->
-	<form action ="resultats.html" method="POST">
+	<form action ="resultats.html" method="GET">
 		<input name ="recherche" type="search"placeholder="Rechercher"/>
 		<input name='chercher' type ='submit' value='OK'/>
 	</form>
@@ -46,7 +46,7 @@
 		</tr>
 	</table>
 	<!-- formulaire coordonnées -->
-	<form id='coord' action ='/service' method='POST'>
+	<form id='coord' action ='panier.html' method='POST'>
 		<fieldset >
 			<legend>Vos informations de commande</legend>
 			<input name='prenom' placeholder='Prénom' type ='text' /><br/>
