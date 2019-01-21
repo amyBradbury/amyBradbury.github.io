@@ -1,5 +1,6 @@
 header{
 	display: flex;
+<<<<<<< HEAD
 	flex : wrap;
 	justify-content: space-around;
 	padding: 10px;
@@ -31,14 +32,46 @@ footer{
 	margin: 10px,0px;
 	border: solid black;
 	border-width: 1px 0px;
+=======
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+	border: 1px solid #edf2e6;
+	font-weight: bolder;
+	font-size: 20px;
+	 }
+	 
+ .menuItem a{
+    color: rgb(106, 110, 106);
+}
+main {
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+	border: 1px solid #edf2e6;
+	color: rgb(106, 110, 106);
+	font-weight: bolder;
+	}
+	
+footer {
+    padding: 10px;
+    margin: 10px,0px;
+    border: solid black;
+    border-width: 1px 0px;
+	background-image: url('footer.png');
+	background-size: 100%;
+	height: 500px;
+    color: gray;
+    text-align: center;
+    
+>>>>>>> parent of 7d6f230... maj produit, index et autres
 }
 
-footer a {
-    color: gray;
-	text-align: center;
-	font-family: 'Yanone Kaffeesatz',sans-serif;
-	font-weight: bolder;
-}
+    footer a {
+       color: gray;
+       text-align: center;
+    }
 
 #liste_produit{
 	display : flex;
@@ -51,7 +84,7 @@ article{
 	padding : 10px 20px;
 	margin: 0 0 10px 0 ;
 	max-width: 300px; 
-	border: 1px solid #edf2e6;
+	border: 1px solid #72b369;
 	/* display : flex;
 	flex-flow :column; */
 	min-width: 120px;
@@ -67,11 +100,6 @@ article button{
 .produit h1{
 	width : 100%;
 }
-.nous{
-	width: 100%;
-	max-width: 300px;
-}
-
 .cactus{
 	/* min-width: 100px; */
 	width: 100%;
@@ -141,17 +169,8 @@ audio{
 	visibility: hidden;
 }
 #msg {
-	text-align: center;
-	border: 2px dashed rgb(164, 226, 129);
-	padding: 5px;
-	margin: auto;
-	line-height:30px;
+    text-align: center;
 }
 #desc {
     
-}
-input{
-	font-family: 'Yanone Kaffeesatz',sans-serif;
-	font-weight: bolder;
-	font-size: 20px;
 }
