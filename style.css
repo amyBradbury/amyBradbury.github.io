@@ -5,13 +5,21 @@ body{
 		font-weight: bolder;
 }
 header {
-	text-align: center;
 	background-image: url('header.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 500px;
+	text-align: center;
 	font-size: 30px;
 	font-weight: lighter;
+	color: rgb(106, 110, 106);
+}
+header:after{
+	content :"~ Adopte un cactus ~";
+	text-align: end;
+	text-align: center;
+	font-size: 65px;
+	/*font-weight: lighter;*/
 	color: rgb(106, 110, 106);
 }
 nav {
@@ -49,7 +57,10 @@ footer a {
 	text-align: center;
 }
 h1{
-	padding-left : 20px;
+	
+}
+h2{
+	
 }
 a{
 	color : black;
@@ -115,6 +126,10 @@ article button{
 	opacity: 0.4;
 	cursor: not-allowed;
 }
+.cactus{
+	width: 100%;
+	max-width: 300px;
+}
 			/* Page description produit*/
 .produit{
 	display: flex;
@@ -165,9 +180,6 @@ td[colspan]{
 }
 			/* Page Rapport */
 /*
-h2{
-
-}
 h3{
 
 }
@@ -179,8 +191,5 @@ ol{
 }*/
 			/* Règles inutilisées ? */
 /*
-.cactus{
-	width: 100%;
-	max-width: 300px;
-}
+
 */
