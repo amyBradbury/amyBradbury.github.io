@@ -1,7 +1,23 @@
-nav{
+header{
 	display: flex;
+	flex : wrap;
+	justify-content: space-around;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid purple;
+}
+header>h1{
+	width: 25%;
+	min-width: 260px; /*largeur du logo*/
+	justify-content : center;
+}
+nav{
+	width: 60%;
+	display: flex;
+	flex : wrap;
 	justify-content : space-between;
-	padding: 10px ;
+	align-content: center;
+	padding: 10px;
 	margin: 10px;
 	border: 1px solid red;
 }
@@ -51,6 +67,8 @@ article button{
 .promo{
 	font: italic;
 	/* border: 2px solid red; */
+	border: 1px solid #e61515 ;
+	width :max-content;
 }
 .promo em{
 	color: #e61515;
