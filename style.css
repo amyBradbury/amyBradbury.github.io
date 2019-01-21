@@ -32,6 +32,14 @@ footer{
 	border: solid black;
 	border-width: 1px 0px;
 }
+
+footer a {
+    color: gray;
+	text-align: center;
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-weight: bolder;
+}
+
 #liste_produit{
 	display : flex;
 	flex-flow :row wrap; 
@@ -43,7 +51,7 @@ article{
 	padding : 10px 20px;
 	margin: 0 0 10px 0 ;
 	max-width: 300px; 
-	border: 1px solid rgb(179, 31, 31);
+	border: 1px solid #edf2e6;
 	/* display : flex;
 	flex-flow :column; */
 	min-width: 120px;
@@ -59,6 +67,11 @@ article button{
 .produit h1{
 	width : 100%;
 }
+.nous{
+	width: 100%;
+	max-width: 300px;
+}
+
 .cactus{
 	/* min-width: 100px; */
 	width: 100%;
@@ -79,6 +92,7 @@ article button{
 	width: 200px;
 }
 #panier{
+	width : 100%;
 	display: flex;
 	justify-content : space-around;
 }	
@@ -126,4 +140,18 @@ a{
 audio{
 	visibility: hidden;
 }
-
+#msg {
+	text-align: center;
+	border: 2px dashed rgb(164, 226, 129);
+	padding: 5px;
+	margin: auto;
+	line-height:30px;
+}
+#desc {
+    
+}
+input{
+	font-family: 'Yanone Kaffeesatz',sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+}
