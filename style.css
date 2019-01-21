@@ -167,9 +167,8 @@ audio{
 	margin: auto;
 	line-height:30px;
 }
-#desc {
-    
-}
+/*#desc {
+}*/
 input{
 	font-family: 'Yanone Kaffeesatz',sans-serif;
 	font-weight: bolder;
