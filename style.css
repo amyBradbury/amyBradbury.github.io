@@ -199,9 +199,14 @@ td[colspan]{
 	text-align : right;
 }
 			/* Page Equipe*/
-.nous{
-	width: 100%;
-	max-width: 300px;
+#nous{
+	display: flex;
+	flex-flow: wrap space-between;
+	/* width: 100%; */
+}
+#nous section{
+	width: 45%;
+	padding-left : 5%;
 }
 			/* Page Rapport */
 /*
