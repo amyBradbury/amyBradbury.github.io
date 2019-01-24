@@ -1,67 +1,102 @@
-header {
-	text-align: center;
-	background-image: url('header.png');
-	background-repeat: no-repeat;
-	background-size: 100%;
-	height: 500px;
-	font-family: 'Yanone Kaffeesatz',sans-serif;
-	font-size: 30px;
-	font-weight: lighter;
-	color: rgb(106, 110, 106);
-}
-
-
+			/*Toutes les pages*/
 body{
 		background-color: white;
-		}
-
+		font-family: 'Yanone Kaffeesatz',sans-serif;
+		font-weight: bolder;
+}
+header {
+	background-image: url('img/header.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height : 0;
+	padding-top: 1%;
+	padding-bottom : 25%;
+	/*adaptation de : https://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size*/
+	text-align: center;
+	font-size: 5vw ;
+	color: rgb(106, 110, 106);
+}
+header:before{
+	content :"~ Adopte un cactus ~";
+	
+}
 nav {
-	font-family: 'Yanone Kaffeesatz',sans-serif;
 	display: flex;
     justify-content: space-between;
     padding: 10px;
     margin: 10px;
 	border: 1px solid #edf2e6;
-	font-weight: bolder;
 	font-size: 20px;
-	 }
-	 
- .menuItem a{
-    color: rgb(106, 110, 106);
+} 
+.menuItem a{
+	color: rgb(106, 110, 106);
 }
 main {
-	font-family: 'Yanone Kaffeesatz',sans-serif;
 	font-size: 20px;
     padding: 10px;
     margin: 10px;
 	border: 1px solid #edf2e6;
 	color: rgb(106, 110, 106);
-	font-weight: bolder;
-	}
-	
+}
 footer {
     padding: 10px;
     margin: 10px,0px;
     border: solid black;
     border-width: 1px 0px;
-	background-image: url('footer.png');
+	background-image: url('img/footer.png');
+	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 500px;
     color: gray;
 	text-align: center;
-	font-family: 'Yanone Kaffeesatz',sans-serif;
-	font-weight: bolder;
 }
-    
-}
-
 footer a {
     color: gray;
 	text-align: center;
+}
+/*h1{
+	
+}
+h2{
+	
+}*/
+a{
+	color : black;
+}
+audio{
+	visibility: hidden;
+}
+input{
+	font-size: 20px;
 	font-family: 'Yanone Kaffeesatz',sans-serif;
 	font-weight: bolder;
 }
-
+			/* Page index*/
+#msg {
+	text-align: center;
+	border: 2px dashed rgb(164, 226, 129);
+	padding: 5px;
+	margin: auto;
+	line-height:30px;
+}
+.promos{
+	align-content:space-around;
+}
+.promo{
+	font: italic;
+	width : auto;
+	/* border: 2px solid red; */
+}
+.promo em{
+	color: #e61515;
+	font: bold, italic;
+	text-decoration: blink;
+}
+.promo img{
+	width: 200px;
+}
+			/* Pages Recherche et Produit*/
 #liste_produit{
 	display : flex;
 	flex-flow :row wrap; 
@@ -81,36 +116,35 @@ article{
 article button{
 	width: 100%;
 }
-/*.produit{
+.dispo .disponibilite:after{
+	content :"✔Disponible";
+	color : green;
+}
+.indispo .disponibilite:after{
+	content :"❌ Indisponible";
+	color : red;
+}
+.indispo button{
+	opacity: 0.4;
+	cursor: not-allowed;
+}
+.cactus{
+	width: 100%;
+	max-width: 300px;
+}
+			/* Page description produit*/
+.produit{
 	display: flex;
 	flex: row wrap;
-	align-content: center 
-}*/
+	align-content: space-around;
+}
 .produit h1{
 	width : 100%;
 }
-.nous{
-	width: 100%;
-	max-width: 300px;
+.description {
+	max-width: 60% ;
 }
-
-.cactus{
-	/* min-width: 100px; */
-	width: 100%;
-	max-width: 300px;
-}
-.promo{
-	font: italic;
-	/* border: 2px solid red; */
-}
-.promo em{
-	color: #e61515;
-	font: bold, italic;
-	text-decoration: blink;
-}
-.promo img{
-	width: 200px;
-}
+			/*Page Panier = Commande */
 #panier{
 	width : 100%;
 	display: flex;
@@ -119,7 +153,6 @@ article button{
 #coord{
 	min-width: 150px;
 	width : 40%;
-	
 }
 #coord input {
 	width : 95%;
@@ -142,36 +175,23 @@ td[colspan]{
 	padding: 10 px;
 	text-align : right;
 }
-.dispo .disponibilite:after{
-	content :"✔Disponible";
-	color : green;
+			/* Page Equipe*/
+.nous{
+	width: 100%;
+	max-width: 300px;
 }
-.indispo .disponibilite:after{
-	content :"❌ Indisponible";
-	color : red;
+			/* Page Rapport */
+/*
+h3{
+
 }
-.indispo button{
-	opacity: 0.4;
-	cursor: not-allowed;
+ul{
+
 }
-a{
-	color : black;
-}
-audio{
-	visibility: hidden;
-}
-#msg {
-	text-align: center;
-	border: 2px dashed rgb(164, 226, 129);
-	padding: 5px;
-	margin: auto;
-	line-height:30px;
-}
-#desc {
-    
-}
-input{
-	font-family: 'Yanone Kaffeesatz',sans-serif;
-	font-weight: bolder;
-	font-size: 20px;
-}
+ol{
+
+}*/
+			/* Règles inutilisées ? */
+/*
+.desc_site{}
+*/
