@@ -21,14 +21,26 @@ header::before{
 	content :"~ Adopte un cactus ~";}
 nav {
 	display: flex;
-    justify-content: space-between;
+	flex-flow: wrap;
+    justify-content: space-around;
     padding: 10px;
     margin: 10px;
 	border: 1px solid #edf2e6;
 	font-size: 20px;
 } 
-.menuItem a{
+.menuItem{
 	color: rgb(106, 110, 106);
+	width: 20%;
+	border: purple solid 0;
+	display: flex;
+	justify-content: center;
+	display: flex;
+	flex-flow: nowrap;
+
+}
+.menuItem input[type="search"]{
+	width: 80%;
+	font-size: 0.9em;
 }
 main {
 	font-size: 20px;
@@ -68,6 +80,7 @@ h1{
 h2{
 	
 }*/
+
 a{
 	color : inherit;
 	text-decoration: none;
