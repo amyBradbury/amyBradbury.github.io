@@ -17,10 +17,8 @@ header {
 	font-size: 5vw ;
 	color: rgb(106, 110, 106);
 }
-header:before{
-	content :"~ Adopte un cactus ~";
-	
-}
+header::before{
+	content :"~ Adopte un cactus ~";}
 nav {
 	display: flex;
     justify-content: space-between;
@@ -42,18 +40,26 @@ main {
 footer {
     padding: 10px;
     margin: 10px,0px;
-    border: solid black;
+    border: solid black; /*TODO : garder ? */
     border-width: 1px 0px;
 	background-image: url('img/footer.png');
 	background-repeat: no-repeat;
-	background-size: 100%;
-	height: 500px;
-    color: gray;
+	background-size: contain;
+	width : 100%;
+	height: 0;
+	padding-bottom: 31%;
+	color: gray;
+	
 	text-align: center;
+	font-size: 14pt;
+	font-style: italic;
 }
-footer a {
-    color: gray;
-	text-align: center;
+footer::before{
+	content :"Disclaimer: ce site a été réalisé dans le cadre d'un projet étudiant";
+}
+footer a{
+	text-decoration: underline;
+	font-style: italic;
 }
 /*h1{
 	
@@ -62,7 +68,8 @@ h2{
 	
 }*/
 a{
-	color : black;
+	color : inherit;
+	text-decoration: none;
 }
 audio{
 	visibility: hidden;
@@ -116,11 +123,11 @@ article{
 article button{
 	width: 100%;
 }
-.dispo .disponibilite:after{
+.dispo .disponibilite::after{
 	content :"✔Disponible";
 	color : green;
 }
-.indispo .disponibilite:after{
+.indispo .disponibilite::after{
 	content :"❌ Indisponible";
 	color : red;
 }
