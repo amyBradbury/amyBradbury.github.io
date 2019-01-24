@@ -1,0 +1,6 @@
+[]Taille du texte :
+    []body : taille en vw (dépend largeur fenetre)
+    []autres : en em (dépend taille parent)
+[]Largeur barre de recherche
+[]centrer promo
+[]metttre en forme message du jour
