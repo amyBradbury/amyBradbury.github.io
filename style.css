@@ -29,16 +29,7 @@ nav {
 	padding: 10px;
 	margin: 10px;
 	border: 1px solid purple;
-}
-.menuItem a{
-	color: rgb(106, 110, 106);
-}
-header>h1{ /* USEFULL ?*/
-	width: 25%;
-	min-width: 260px; /*largeur du logo*/
-	justify-content : center;
-}
-nav{
+	/*
 	width: 60%;
 	display: flex;
 	flex : wrap;
@@ -47,6 +38,15 @@ nav{
 	padding: 10px;
 	margin: 10px;
 	border: 1px solid red;
+	*/
+}
+.menuItem a{
+	color: rgb(106, 110, 106);
+}
+header>h1{ /* USEFULL ?*/
+	width: 25%;
+	min-width: 260px; /*largeur du logo*/
+	justify-content : center;
 }
 main{
 	font-size: 20px;
