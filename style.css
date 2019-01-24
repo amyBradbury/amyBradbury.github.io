@@ -32,7 +32,7 @@ nav {
 }
 main {
 	font-size: 20px;
-    padding: 10px;
+    padding: 30px;
     margin: 10px;
 	border: 1px solid #edf2e6;
 	color: rgb(106, 110, 106);
@@ -61,9 +61,10 @@ footer a{
 	text-decoration: underline;
 	font-style: italic;
 }
-/*h1{
-	
+h1{
+	margin-top: 0;
 }
+/*
 h2{
 	
 }*/
@@ -160,11 +161,13 @@ article button{
 #coord{
 	min-width: 150px;
 	width : 40%;
+	justify-content: center;
 }
 #coord input {
 	width : 95%;
 	margin : 0;
 	padding: 4px;
+	align-self: center;
 }
 table{
 	border-collapse: collapse;
