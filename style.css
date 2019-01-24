@@ -52,7 +52,7 @@ main {
 footer {
     padding: 10px;
     margin: 10px,0px;
-    border: solid black; /*TODO : garder ? */
+    border: solid rgb(193, 224, 174);/*TODO : garder ? */
     border-width: 1px 0px;
 	background-image: url('img/footer.png');
 	background-repeat: no-repeat;
@@ -100,6 +100,9 @@ input{
 	padding: 5px;
 	margin: auto;
 	line-height:30px;
+}
+.desc_site{
+	
 }
 .promos{
 	align-content:space-around;
@@ -221,5 +224,5 @@ ol{
 }*/
 			/* Règles inutilisées ? */
 /*
-.desc_site{}
+
 */
