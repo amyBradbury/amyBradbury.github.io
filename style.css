@@ -5,7 +5,7 @@ body{
 		font-weight: bolder;
 }
 header {
-	background-image: url('header.png');
+	background-image: url('img/header.png');
 	background-repeat: no-repeat;
 	background-size: 100%;
 	height: 500px;
@@ -45,7 +45,7 @@ footer {
     margin: 10px,0px;
     border: solid black;
     border-width: 1px 0px;
-	background-image: url('footer.png');
+	background-image: url('img/footer.png');
 	background-size: 100%;
 	height: 500px;
     color: gray;
@@ -56,12 +56,12 @@ footer a {
     color: gray;
 	text-align: center;
 }
-h1{
+/*h1{
 	
 }
 h2{
 	
-}
+}*/
 a{
 	color : black;
 }
@@ -81,7 +81,6 @@ input{
 	margin: auto;
 	line-height:30px;
 }
-/*.desc_site{}*/
 .promo{
 	font: italic;
 	/* border: 2px solid red; */
@@ -191,5 +190,5 @@ ol{
 }*/
 			/* Règles inutilisées ? */
 /*
-
+.desc_site{}
 */
