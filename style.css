@@ -17,24 +17,34 @@ header {
 	font-size: 5vw ;
 	color: rgb(106, 110, 106);
 }
-header:before{
-	content :"~ Adopte un cactus ~";
-	
-}
+header::before{
+	content :"~ Adopte un cactus ~";}
 nav {
 	display: flex;
-    justify-content: space-between;
+	flex-flow: wrap;
+    justify-content: space-around;
     padding: 10px;
     margin: 10px;
 	border: 1px solid #edf2e6;
 	font-size: 20px;
 } 
-.menuItem a{
+.menuItem{
 	color: rgb(106, 110, 106);
+	width: 20%;
+	border: purple solid 0;
+	display: flex;
+	justify-content: center;
+	display: flex;
+	flex-flow: nowrap;
+
+}
+.menuItem input[type="search"]{
+	width: 80%;
+	font-size: 0.9em;
 }
 main {
 	font-size: 20px;
-    padding: 10px;
+    padding: 30px;
     margin: 10px;
 	border: 1px solid #edf2e6;
 	color: rgb(106, 110, 106);
@@ -42,27 +52,38 @@ main {
 footer {
     padding: 10px;
     margin: 10px,0px;
-    border: solid black;
+    border: solid black; /*TODO : garder ? */
     border-width: 1px 0px;
 	background-image: url('img/footer.png');
 	background-repeat: no-repeat;
-	background-size: 100%;
-	height: 500px;
-    color: gray;
-	text-align: center;
-}
-footer a {
-    color: gray;
-	text-align: center;
-}
-/*h1{
+	background-size: contain;
+	width : 100%;
+	height: 0;
+	padding-bottom: 31%;
+	color: gray;
 	
+	text-align: center;
+	font-size: 14pt;
+	font-style: italic;
 }
+footer::before{
+	content :"Disclaimer: ce site a été réalisé dans le cadre d'un projet étudiant";
+}
+footer a{
+	text-decoration: underline;
+	font-style: italic;
+}
+h1{
+	margin-top: 0;
+}
+/*
 h2{
 	
 }*/
+
 a{
-	color : black;
+	color : inherit;
+	text-decoration: none;
 }
 audio{
 	visibility: hidden;
@@ -116,11 +137,11 @@ article{
 article button{
 	width: 100%;
 }
-.dispo .disponibilite:after{
+.dispo .disponibilite::after{
 	content :"✔Disponible";
 	color : green;
 }
-.indispo .disponibilite:after{
+.indispo .disponibilite::after{
 	content :"❌ Indisponible";
 	color : red;
 }
@@ -153,11 +174,13 @@ article button{
 #coord{
 	min-width: 150px;
 	width : 40%;
+	justify-content: center;
 }
 #coord input {
 	width : 95%;
 	margin : 0;
 	padding: 4px;
+	align-self: center;
 }
 table{
 	border-collapse: collapse;
@@ -176,9 +199,14 @@ td[colspan]{
 	text-align : right;
 }
 			/* Page Equipe*/
-.nous{
-	width: 100%;
-	max-width: 300px;
+#nous{
+	display: flex;
+	flex-flow: wrap space-between;
+	/* width: 100%; */
+}
+#nous section{
+	width: 45%;
+	padding-left : 5%;
 }
 			/* Page Rapport */
 /*
