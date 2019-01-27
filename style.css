@@ -25,7 +25,7 @@ nav {
     justify-content: space-around;
     padding: 10px;
     margin: 10px;
-	border: 1px solid #edf2e6;
+	border: 1px solid rgb(193, 224, 174);
 	font-size: 20px;
 } 
 .menuItem{
@@ -52,7 +52,7 @@ main {
 footer {
     padding: 10px;
     margin: 10px,0px;
-    border: solid rgb(193, 224, 174);/*TODO : garder ? */
+    border: solid rgb(193, 224, 174);
     border-width: 1px 0px;
 	background-image: url('img/footer.png');
 	background-repeat: no-repeat;
@@ -61,8 +61,7 @@ footer {
 	height: 0;
 	padding-bottom: 31%;
 	color: gray;
-	
-	text-align: center;
+		text-align: center;
 	font-size: 14pt;
 	font-style: italic;
 }
@@ -96,20 +95,33 @@ input{
 			/* Page index*/
 #msg {
 	text-align: center;
-	border: 2px dashed rgb(164, 226, 129);
+	border: 1px dashed rgb(164, 226, 129);
 	padding: 5px;
 	margin: auto;
 	line-height:30px;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	 
 }
 .desc_site{
-	
+	position: relative;
 }
 .promos{
-	align-content:space-around;
+	align-content:center;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 .promo{
 	font: italic;
 	width : auto;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 	/* border: 2px solid red; */
 }
 .promo em{
@@ -119,6 +131,9 @@ input{
 }
 .promo img{
 	width: 200px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 			/* Pages Recherche et Produit*/
 #liste_produit{
@@ -210,18 +225,13 @@ td[colspan]{
 #nous section{
 	width: 45%;
 	padding-left : 5%;
+	text-align : justify;
 }
 			/* Page Rapport */
-/*
-h3{
-
+#cr{
+	text-align : justify;
+	line-height: 120%;
 }
-ul{
-
-}
-ol{
-
-}*/
 			/* Règles inutilisées ? */
 /*
 

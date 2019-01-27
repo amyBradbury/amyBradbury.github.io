@@ -12,9 +12,9 @@
 <header></header>
 </a>
 <nav id = "navbar">
-	<!-- <section class="menuItem"><a href='index.html#navbar'>Adopte un cactus</a></section> -->
+	<section class="menuItem"><a href='index.html#navbar'>Accueil</a></section>
 	<section class="menuItem"><a href='produits.html#navbar'>Nos Produits</a></section>
-	<section class="menuItem"><a href='panier.html#navbar'>Mon panier (1)</a></section>
+	<section class="menuItem"><a href='panier.html#navbar'>Mon panier </a></section>
 	<section class="menuItem"><a href='equipe.html#navbar'>L'équipe</a></section>
 	<form class="menuItem" action ="resultats.html#navbar" method="GET">
 		<input name ="recherche" type="search"placeholder="Rechercher"/>
@@ -23,7 +23,34 @@
 </nav>
 <main>
 	<h1>Compte rendu</h1>
-	<p> bonjour <em> bonsoir</em></p>
+	<section id="cr"><h2>Le projet</h2>
+	<p> Ce site web a été réalisé dans le cadre d'un projet étudiant. Les consignes était de réaliser un site internet marchand en utilisant uniquement HTML et CSS</p>
+	<p>Les contraintes étaient les suivantes:</p>
+	<ul>
+		<li>une page d'accueil avec message du jour, promotions et fonction de recherche,</li>
+		<li>une page de résultat de recherche avec une liste de produits,</li>
+		<li>une page de description détaillée pour un produit sélectionné dans la liste,</li>
+		<li>des éléments de gestion du panier : possibilité d'ajouter un article, voir le contenu du panier, retirer un article du panier,effectuer l'achat,
+		<li>une page "qui sommes-nous ?" de présentation du site, avec le nom des auteurs,</li>
+		<li>une page "détails techniques" avec une description des méthodes employées (Compte-Rendu).</li>
+	   </ul>
+	<p>Afin de traviller de concert, nous avons utilisé la plateforme GitHub et avons codé avec Visual Studio Code.</p>
+	<h2>La réalisation</h2>
+	<h3>Architecture: HTML</h3>
+	<p>Une fois le sujet du site choisi, la première étape a été de déterminer l'architecture du site. Nous avons déterminé l'ordre des pages et leurs liens entre elles.<br>
+	Le squelette du site ayant été posé, nous avons commencé par créer la page panier vide et la page panier plein. En effet, ne pouvant utiliser autre chose que html et css, ces deux pages servent à donner l'illusion d'un panier. Ces deux pages ont été codés en utilisant un formulaire et des tableaux.<br>
+	Nous nous sommes ensuite occupé de la fonction de recherche et de la page de résultats associée. La encore, la recherche est factice. Quelque soit les mots entrés dans la barre (réalisée avec un formulaire et un bouton), l'utilisateur est forcément renvoyé vers une unique page de résultats. Afin d'assurer la cohérence avec le panier factice, seul un article peut être ajouté au panier.<br>
+	La page de résultats, tout comme la page des produits, contient des photos et du contenus descrivant les catus vendus. Vu le délai imparti, nous n'avons pas eu le temps de coder tout le pages de tous les produits. Nous avons choisi de réaliser seulement une page particulière, accessible en ckiquant sur l'image ou sur le bouton "En savoir plus". Le bouton "En savoir plus" a été rendu inutilisable et la disponibilté modifiée via le CSS afin de justifier l'absence des ces pages.<br>
+	la page concernant le cactus nain est assez simlple et contient une simple image et une description plus poussée du produit ainsi que la possibilité d'ajout au panier.<br>
+	La page d'accueil devait contenir le message du jour, la promotion et la description du site. Cette pag est toujours accessibnle en cliquant sur l'image du header.<br>
+	Les pages concernant l 'équipe et ce compte rendu sont très simple et ne contiennent que du texte mis en forme au moyen de titres.<br>
+	Toutes les pages sont construites sur le meme modèle : un header, une barre de navigation, un main divisé en section et un footer. De ce fait les différentes pages sont cohérentes avec leur contenu.</p>
+	<h3>Apparence: CSS</h3>
+	<p>Le CSS nous a permis de mettre en forme notre site. Nous avons décidé de mettre une photo de fond pour le header et le footer afin de rendre le site plus attractif (images libres de droit). Nous avons également fait le choix d'utiliser une police inhabituelle qui se charge automatiquement au lancement de la page (police gratuite via Google font).<br>
+	Le CSS nous apermis de mettre en forme la barre de navigation et les contenus. Nous avons en effet utilisé les propriétés de types Flex.<br>
+	En utilisant les classes et id, nous avons pu mettre en forme les produits et créer l'illusion d'indisponibilté.<br>
+	Enfin, le css assure le responsive design de notre site.</p>
+</section>
 </main>
 <footer>
 	<p><a href='compte_rendu.html'>Compte Rendu</a></p>
