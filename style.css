@@ -107,6 +107,7 @@ input{
 }
 .desc_site{
 	position: relative;
+	line-height: 120%;
 }
 .promos{
 	align-content:center;
@@ -182,6 +183,10 @@ article button{
 }
 .description {
 	max-width: 60% ;
+	text-align: justify;
+}
+.cactus_nain{
+	max-height: 400px;
 }
 			/*Page Panier = Commande */
 #panier{
