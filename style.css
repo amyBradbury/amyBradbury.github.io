@@ -221,6 +221,10 @@ td[colspan]{
 	padding: 10 px;
 	text-align : right;
 }
+.supprimer{
+	color: #e61515;
+	font-weight: bold;
+}
 			/* Page Equipe*/
 #nous{
 	display: flex;
