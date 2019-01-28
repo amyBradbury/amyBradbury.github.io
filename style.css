@@ -20,23 +20,20 @@ header {
 header::before{
 	content :"~ Adopte un cactus ~";}
 nav {
+	font-size: 24px;
 	display: flex;
 	flex-flow: wrap;
     justify-content: space-around;
     padding: 10px;
     margin: 10px;
 	border: 1px solid rgb(193, 224, 174);
-	font-size: 20px;
 } 
 .menuItem{
 	color: rgb(106, 110, 106);
 	width: 20%;
-	border: purple solid 0;
 	display: flex;
 	justify-content: center;
-	display: flex;
 	flex-flow: nowrap;
-
 }
 .menuItem input[type="search"]{
 	width: 80%;
@@ -203,7 +200,7 @@ article{
 	max-height: 420px;
 }
 			/*Page Panier = Commande */
-#panier{
+.panier{
 	width : 100%;
 	display: flex;
 	justify-content : space-around;
@@ -239,6 +236,11 @@ td[colspan]{
 .supprimer{
 	color: #e61515;
 	font-weight: bold;
+}
+/* Ne peut pas valider commande si panier vide*/
+.vide [type="submit"]{ 
+	opacity: 0.4;
+	cursor: not-allowed;
 }
 			/* Page Equipe*/
 #nous{
