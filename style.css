@@ -110,10 +110,8 @@ input{
 	position: relative;
 	line-height: 120%;
 }
-#promos{
-	text-align: center;
-	margin: 30px 0 0 0;
-}
+/* #promos{
+} */
 .promo{
 	font-style: italic;
 	width : auto;
