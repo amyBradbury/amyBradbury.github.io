@@ -98,36 +98,36 @@ input{
 	border: 1px dashed rgb(164, 226, 129);
 	padding: 5px;
 	margin: auto;
+	margin-bottom: 20px;
 	line-height:30px;
 	display: inline-block;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
-	 
+	padding : 20px;
 }
 .desc_site{
 	position: relative;
 	line-height: 120%;
 }
-.promos{
-	align-content:center;
-	display: inline-block;
-	position: relative;
-	left: 50%;
-	transform: translateX(-50%);
+#promos{
+	text-align: center;
+	margin: 30px 0 0 0;
 }
 .promo{
-	font: italic;
+	font-style: italic;
 	width : auto;
 	display: inline-block;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
-	/* border: 2px solid red; */
+
+
 }
 .promo em{
 	color: #e61515;
-	font: bold, italic;
+	font-style: italic;
+	font-weight: bold;
 	text-decoration: blink;
 }
 .promo img{
