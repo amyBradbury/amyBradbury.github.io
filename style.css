@@ -105,13 +105,12 @@ input{
 	left: 50%;
 	transform: translateX(-50%);
 	padding : 20px;
+	border-radius: 8px;
 }
 .desc_site{
 	position: relative;
 	line-height: 120%;
 }
-/* #promos{
-} */
 .promo{
 	font-style: italic;
 	width : auto;
@@ -151,8 +150,27 @@ article{
 	flex-flow :column; */
 	min-width: 120px;
 }
-article button{
+.button{
+	font-size: 0.9em;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 30px;
+	height : 1.2em;
+	border : 1px solid grey;
+	background-color: rgb(235, 235, 235);
 	width: 100%;
+}
+.button:hover{
+	border : 1px solid rgb(164, 226, 129) ;
+	background-color: rgb(214, 250, 214);
+}
+
+.indispo .button{
+	opacity: 0.4;
+	cursor: not-allowed;
+	border : 1px solid grey;
+	background-color: rgb(235, 235, 235);
 }
 .dispo .disponibilite::after{
 	content :"✔Disponible";
@@ -162,10 +180,7 @@ article button{
 	content :"❌ Indisponible";
 	color : red;
 }
-.indispo button{
-	opacity: 0.4;
-	cursor: not-allowed;
-}
+
 .cactus{
 	width: 100%;
 	max-width: 300px;
