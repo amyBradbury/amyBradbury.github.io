@@ -44,7 +44,7 @@
 		</tr>
 	</table>
 	<!-- formulaire coordonnées -->
-	<form id='coord' action ='commande_ok.html' method='GET'>
+	<form id='coord' action ='commande_ok.html' method='POST'>
 		<fieldset>
 			<legend>Vos informations de commande</legend>
 			<input name='prenom' placeholder='Prénom' type ='text' /><br/>
@@ -53,10 +53,10 @@
 			<input name='adresse' placeholder='Adresse' type ='text'/><br/>
 			<input name='code_postal' placeholder='Code Postal' type ='number'/><br/>
 			<input name='ville' placeholder='Ville' type ='text'/><br/>
-			<input name='pays' placeholder='Pays' type ='text'/><br/><!-- liste déroulante ? -->
-			<input name='teléphone' placeholder='Téléphone' type ='tel'/><br/>
+			<input name='pays' placeholder='Pays' type ='text'/><br/>
+			<input name='telephone' placeholder='Téléphone' type ='tel'/><br/>
 		</fieldset>
-		<input name='envoyer' type ='submit' value='Valider la commande'/>
+		<input name='envoyer' type ='submit' value='Valider'/>
 		<!-- Commande validée -->
 	</form>
 </main>
