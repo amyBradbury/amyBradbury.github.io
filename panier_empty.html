@@ -21,44 +21,42 @@
 		<input name="chercher" type ="submit" value="OK"/>
 	</form>
 </nav>
-<main>
+<main id ="panier">
 	<h1>Mon panier</h1>
-	<section id ="panier">
-		<table>
-			<tr>
-				<th>Produit</th>
-				<th>Quantité</th>
-				<th>Prix</th>
-			</tr>
-			<tr>
-				<th colspan=3>Aucun article dans le panier</td>
-			</tr>
-			<tr>
-				<td colspan = 2>Frais de port</td>
-				<td>/</td>
-			</tr>
-			<tr>
-				<td colspan = 2>Total</td>
-				<td>/</td>
-			</tr>
-		</table>
-		<!-- formulaire coordonnées -->
-		<form id='coord' action ='panier.html' method='POST'>
-			<fieldset>
-				<legend>Vos informations de commande</legend>
-				<input name='prenom' placeholder='Prénom' type ='text' /><br/>
-				<input name='nom' placeholder='Nom' type ='text'/><br/>
-				<input name='email' placeholder='Email' type ='email'/><br/>
-				<input name='adresse' placeholder='Adresse' type ='text'/><br/>
-				<input name='code_postal' placeholder='Code Postal' type ='number'/><br/>
-				<input name='ville' placeholder='Ville' type ='text'/><br/>
-				<input name='pays' placeholder='Pays' type ='text'/><br/><!-- liste déroulante ? -->
-				<input name='teléphone' placeholder='Téléphone' type ='tel'/><br/>
-			</fieldset>
-			<input name='envoyer' type ='submit' value='Valider la commande'/>
-			<!-- Commande validée -->
-		</form>
-	</section>
+	<table>
+		<tr>
+			<th>Produit</th>
+			<th>Quantité</th>
+			<th>Prix</th>
+		</tr>
+		<tr>
+			<th colspan=3>Aucun article dans le panier</td>
+		</tr>
+		<tr>
+			<td colspan = 2>Frais de port</td>
+			<td>/</td>
+		</tr>
+		<tr>
+			<td colspan = 2>Total</td>
+			<td>/</td>
+		</tr>
+	</table>
+	<!-- formulaire coordonnées -->
+	<form id='coord' action ='panier.html' method='POST'>
+		<fieldset>
+			<legend>Vos informations de commande</legend>
+			<input name='prenom' placeholder='Prénom' type ='text' /><br/>
+			<input name='nom' placeholder='Nom' type ='text'/><br/>
+			<input name='email' placeholder='Email' type ='email'/><br/>
+			<input name='adresse' placeholder='Adresse' type ='text'/><br/>
+			<input name='code_postal' placeholder='Code Postal' type ='number'/><br/>
+			<input name='ville' placeholder='Ville' type ='text'/><br/>
+			<input name='pays' placeholder='Pays' type ='text'/><br/><!-- liste déroulante ? -->
+			<input name='teléphone' placeholder='Téléphone' type ='tel'/><br/>
+		</fieldset>
+		<input name='envoyer' type ='submit' value='Valider la commande'/>
+		<!-- Commande validée -->
+	</form>
 </main>
 <footer>
 	<p><a href="compte_rendu.html">Compte Rendu</a></p>
