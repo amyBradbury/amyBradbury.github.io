@@ -73,8 +73,9 @@ footer a{
 	font-style: italic;
 }
 h1{
+	min-width: 100%;
 	margin-top: 0;
-	width : 100%;
+	
 }
 /*
 h2{
@@ -207,6 +208,7 @@ article{
 	width : 100%;
 	display: flex;
 	justify-content : space-around;
+	flex-wrap: wrap ;
 }	
 #coord{
 	min-width: 150px;
@@ -242,7 +244,8 @@ td[colspan]{
 			/* Page Equipe*/
 #nous{
 	display: flex;
-	flex-flow: wrap space-between;
+	flex-wrap: wrap ;
+	justify-content: space-between;
 	/* width: 100%; */
 }
 #nous section{
