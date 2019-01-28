@@ -208,7 +208,7 @@ article{
 	width : 100%;
 	display: flex;
 	justify-content : space-around;
-	flex-wrap: wrap ;
+	flex-wrap: wrap;
 }	
 #coord{
 	min-width: 150px;
